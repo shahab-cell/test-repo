@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Page</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      nav {
+        background-color: #ccc;
+        width: 100vw;
+        /* padding: 10px; */
+        /* margin-bottom: 20px; */
+        /* display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; */
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      nav img {
+        width: 200px;
+      }
+      ul {
+        display: flex;
+        width: 80%;
+        margin: auto;
+      }
+      li {
+        list-style: none;
+        margin-left: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <!-- <div> -->
+        <img src="./pluralsight-color-full-logo.png" alt="" />
+        <!-- </div> -->
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </nav>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID:</th>
+          <th>Name :</th>
+          <th>Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>John Doe</td>
+          <td>238409238409</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Jane Doe</td>
+          <td>238409238409</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Bob lazar</td>
+          <td>238409238409</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br /><br />
+    <form action="#" class="form">
+      <div>
+        <label for="name">Name </label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="phone">Phone# </label>
+        <input type="text" id="phone" />
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <select name="country names" id="cn">
+          <option value="Afghanistan">Select a Country</option>
+          <optgroup>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Nigeia">Nigeia</option>
+            <option value="Srilanka">Srilanka</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="America">America</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Morocco">Morocco</option>
+            <option value="Bankok">Bankok</option>
+            <option value="Germany">Germany</option>
+            <option value="Wales">Wales</option>
+            <option value="Hungry">Hungry</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <label for="gender">Gender :</label>
+        <input type="checkbox" name="male" id="gender" value="Male" />
+        <input type="checkbox" name="female" id="gender" value="Female" />
+      </div>
+      <button type="submit">Submit</button>
+      <button>Edit</button>
+      <button>clear</button>
+    </form>
+  </body>
+</html>
